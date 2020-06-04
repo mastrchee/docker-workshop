@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  app:
+    image: ${DOCKER_REPOSITORY:-docker-workshop}:${DOCKER_TAG:-local}
+    build:
+      context: .
+    environment:
+      PORT: ${PORT:-80}
+    ports:
+      - "${PORT:-80}:${PORT:-80}"

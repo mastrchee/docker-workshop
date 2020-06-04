@@ -1,0 +1,20 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Simple node app ready for deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine 'test/**.js'"
+  },
+  "author": "Rasika Jayatillake",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pino": "^4.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  },
+  "repository": "git@github.com:mastrchee/docker-workshop.git"
+}
